@@ -1,5 +1,5 @@
 snakemake/workflow/.snakemake*
-snakemake/workflow/notebooks/*
+snakemake/workflow/notebooks/*.ipynb
 
 .DS_Store
 

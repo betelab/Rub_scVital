@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="288pt" height="288pt" viewBox="0 0 288 288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-11-28T14:40:35.331141</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.8.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 288 
+L 288 288 
+L 288 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="legend_1">
+    <g id="patch_2">
+     <path d="M 89.33475 518.858875 
+L 270.04 518.858875 
+Q 271.88 518.858875 271.88 517.018875 
+L 271.88 32.36 
+Q 271.88 30.52 270.04 30.52 
+L 89.33475 30.52 
+Q 87.49475 30.52 87.49475 32.36 
+L 87.49475 517.018875 
+Q 87.49475 518.858875 89.33475 518.858875 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="line2d_1">
+     <path d="M 91.17475 37.565188 
+L 93.47475 37.565188 
+L 95.77475 37.565188 
+" style="fill: none"/>
+     <defs>
+      <path id="m578256d41a" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #050505"/>
+     </defs>
+     <g>
+      <use xlink:href="#m578256d41a" x="93.47475" y="37.565188" style="fill: #ffffff; stroke: #050505"/>
+     </g>
+    </g>
+    <g id="text_1">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="40.785188" transform="rotate(-0 99.45475 40.785188)">Mouse</text>
+    </g>
+    <g id="line2d_2">
+     <path d="M 91.17475 50.578875 
+L 93.47475 50.578875 
+L 95.77475 50.578875 
+" style="fill: none"/>
+     <defs>
+      <path id="m47e2fe0ce4" d="M -3 3 
+L 3 3 
+L 3 -3 
+L -3 -3 
+z
+" style="stroke: #c5c7c9; stroke-linejoin: miter"/>
+     </defs>
+     <g>
+      <use xlink:href="#m47e2fe0ce4" x="93.47475" y="50.578875" style="fill: #ffffff; stroke: #c5c7c9; stroke-linejoin: miter"/>
+     </g>
+    </g>
+    <g id="text_2">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="53.798875" transform="rotate(-0 99.45475 53.798875)">Human</text>
+    </g>
+    <g id="line2d_3">
+     <path d="M 91.17475 63.592563 
+L 93.47475 63.592563 
+L 95.77475 63.592563 
+" style="fill: none"/>
+     <defs>
+      <path id="m29f4a6eea8" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m29f4a6eea8" x="93.47475" y="63.592563" style="fill: #ffffff; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="line2d_4">
+     <path d="M 91.17475 76.60625 
+L 93.47475 76.60625 
+L 95.77475 76.60625 
+" style="fill: none"/>
+     <defs>
+      <path id="m913e6d6ee6" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #aec7e8"/>
+     </defs>
+     <g>
+      <use xlink:href="#m913e6d6ee6" x="93.47475" y="76.60625" style="fill: #aec7e8; stroke: #aec7e8"/>
+     </g>
+    </g>
+    <g id="text_3">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="79.82625" transform="rotate(-0 99.45475 79.82625)">B</text>
+    </g>
+    <g id="line2d_5">
+     <path d="M 91.17475 89.732063 
+L 93.47475 89.732063 
+L 95.77475 89.732063 
+" style="fill: none"/>
+     <defs>
+      <path id="mec5a8b98eb" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #1ce6ff"/>
+     </defs>
+     <g>
+      <use xlink:href="#mec5a8b98eb" x="93.47475" y="89.732063" style="fill: #1ce6ff; stroke: #1ce6ff"/>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="92.952063" transform="rotate(-0 99.45475 92.952063)">Central_venous_LSECs</text>
+    </g>
+    <g id="line2d_6">
+     <path d="M 91.17475 102.857875 
+L 93.47475 102.857875 
+L 95.77475 102.857875 
+" style="fill: none"/>
+     <defs>
+      <path id="m8f9a125121" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ff34ff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m8f9a125121" x="93.47475" y="102.857875" style="fill: #ff34ff; stroke: #ff34ff"/>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="106.077875" transform="rotate(-0 99.45475 106.077875)">Cholangiocytes</text>
+    </g>
+    <g id="line2d_7">
+     <path d="M 91.17475 115.979375 
+L 93.47475 115.979375 
+L 95.77475 115.979375 
+" style="fill: none"/>
+     <defs>
+      <path id="m3aa3777c4d" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ff4a46"/>
+     </defs>
+     <g>
+      <use xlink:href="#m3aa3777c4d" x="93.47475" y="115.979375" style="fill: #ff4a46; stroke: #ff4a46"/>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="119.199375" transform="rotate(-0 99.45475 119.199375)">DCs</text>
+    </g>
+    <g id="line2d_8">
+     <path d="M 91.17475 128.993063 
+L 93.47475 128.993063 
+L 95.77475 128.993063 
+" style="fill: none"/>
+     <defs>
+      <path id="m8a901c51ad" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #008941"/>
+     </defs>
+     <g>
+      <use xlink:href="#m8a901c51ad" x="93.47475" y="128.993063" style="fill: #008941; stroke: #008941"/>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="132.213063" transform="rotate(-0 99.45475 132.213063)">Endothelial cells</text>
+    </g>
+    <g id="line2d_9">
+     <path d="M 91.17475 142.118875 
+L 93.47475 142.118875 
+L 95.77475 142.118875 
+" style="fill: none"/>
+     <defs>
+      <path id="mb74b8e4b7c" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #006fa6"/>
+     </defs>
+     <g>
+      <use xlink:href="#mb74b8e4b7c" x="93.47475" y="142.118875" style="fill: #006fa6; stroke: #006fa6"/>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="145.338875" transform="rotate(-0 99.45475 145.338875)">Erythroid_Cells</text>
+    </g>
+    <g id="line2d_10">
+     <path d="M 91.17475 155.240375 
+L 93.47475 155.240375 
+L 95.77475 155.240375 
+" style="fill: none"/>
+     <defs>
+      <path id="m9f6bc0c224" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #a30059"/>
+     </defs>
+     <g>
+      <use xlink:href="#m9f6bc0c224" x="93.47475" y="155.240375" style="fill: #a30059; stroke: #a30059"/>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="158.460375" transform="rotate(-0 99.45475 158.460375)">Hepatic progenitor cells</text>
+    </g>
+    <g id="line2d_11">
+     <path d="M 91.17475 168.474 
+L 93.47475 168.474 
+L 95.77475 168.474 
+" style="fill: none"/>
+     <defs>
+      <path id="m19486d88e1" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #e377c2"/>
+     </defs>
+     <g>
+      <use xlink:href="#m19486d88e1" x="93.47475" y="168.474" style="fill: #e377c2; stroke: #e377c2"/>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="171.694" transform="rotate(-0 99.45475 171.694)">Hepatic_Stellate_Cells</text>
+    </g>
+    <g id="line2d_12">
+     <path d="M 91.17475 181.515 
+L 93.47475 181.515 
+L 95.77475 181.515 
+" style="fill: none"/>
+     <defs>
+      <path id="m6aa6b0bb55" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #b5bd61"/>
+     </defs>
+     <g>
+      <use xlink:href="#m6aa6b0bb55" x="93.47475" y="181.515" style="fill: #b5bd61; stroke: #b5bd61"/>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="184.735" transform="rotate(-0 99.45475 184.735)">Hepatocyte_1</text>
+    </g>
+    <g id="line2d_13">
+     <path d="M 91.17475 194.663813 
+L 93.47475 194.663813 
+L 95.77475 194.663813 
+" style="fill: none"/>
+     <g>
+      <use xlink:href="#m6aa6b0bb55" x="93.47475" y="194.663813" style="fill: #b5bd61; stroke: #b5bd61"/>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="197.883813" transform="rotate(-0 99.45475 197.883813)">Hepatocyte_2</text>
+    </g>
+    <g id="line2d_14">
+     <path d="M 91.17475 207.812625 
+L 93.47475 207.812625 
+L 95.77475 207.812625 
+" style="fill: none"/>
+     <g>
+      <use xlink:href="#m6aa6b0bb55" x="93.47475" y="207.812625" style="fill: #b5bd61; stroke: #b5bd61"/>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="211.032625" transform="rotate(-0 99.45475 211.032625)">Hepatocyte_3</text>
+    </g>
+    <g id="line2d_15">
+     <path d="M 91.17475 220.934125 
+L 93.47475 220.934125 
+L 95.77475 220.934125 
+" style="fill: none"/>
+     <g>
+      <use xlink:href="#m6aa6b0bb55" x="93.47475" y="220.934125" style="fill: #b5bd61; stroke: #b5bd61"/>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="224.154125" transform="rotate(-0 99.45475 224.154125)">Hepatocyte_4</text>
+    </g>
+    <g id="line2d_16">
+     <path d="M 91.17475 234.055625 
+L 93.47475 234.055625 
+L 95.77475 234.055625 
+" style="fill: none"/>
+     <g>
+      <use xlink:href="#m6aa6b0bb55" x="93.47475" y="234.055625" style="fill: #b5bd61; stroke: #b5bd61"/>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="237.275625" transform="rotate(-0 99.45475 237.275625)">Hepatocyte_5</text>
+    </g>
+    <g id="line2d_17">
+     <path d="M 91.17475 247.204438 
+L 93.47475 247.204438 
+L 95.77475 247.204438 
+" style="fill: none"/>
+     <g>
+      <use xlink:href="#m6aa6b0bb55" x="93.47475" y="247.204438" style="fill: #b5bd61; stroke: #b5bd61"/>
+     </g>
+    </g>
+    <g id="text_16">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="250.424438" transform="rotate(-0 99.45475 250.424438)">Hepatocyte_6</text>
+    </g>
+    <g id="line2d_18">
+     <path d="M 91.17475 260.325938 
+L 93.47475 260.325938 
+L 95.77475 260.325938 
+" style="fill: none"/>
+     <g>
+      <use xlink:href="#m6aa6b0bb55" x="93.47475" y="260.325938" style="fill: #b5bd61; stroke: #b5bd61"/>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="263.545938" transform="rotate(-0 99.45475 263.545938)">Hepatocytes</text>
+    </g>
+    <g id="line2d_19">
+     <path d="M 91.17475 273.559562 
+L 93.47475 273.559562 
+L 95.77475 273.559562 
+" style="fill: none"/>
+     <defs>
+      <path id="m03fc92743a" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #c5b0d5"/>
+     </defs>
+     <g>
+      <use xlink:href="#m03fc92743a" x="93.47475" y="273.559562" style="fill: #c5b0d5; stroke: #c5b0d5"/>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="276.779562" transform="rotate(-0 99.45475 276.779562)">Inflammatory_Macrophage</text>
+    </g>
+    <g id="line2d_20">
+     <path d="M 91.17475 286.793187 
+L 93.47475 286.793187 
+L 95.77475 286.793187 
+" style="fill: none"/>
+     <defs>
+      <path id="me29ba4a7f9" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #809693"/>
+     </defs>
+     <g>
+      <use xlink:href="#me29ba4a7f9" x="93.47475" y="286.793187" style="fill: #809693; stroke: #809693"/>
+     </g>
+    </g>
+    <g id="text_19">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="290.013188" transform="rotate(-0 99.45475 290.013188)">Kupffer cells</text>
+    </g>
+    <g id="line2d_21">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#m913e6d6ee6" x="93.47475" y="299.919" style="fill: #aec7e8; stroke: #aec7e8"/>
+     </g>
+    </g>
+    <g id="text_20">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="303.139" transform="rotate(-0 99.45475 303.139)">Mature_B_Cells</text>
+    </g>
+    <g id="line2d_22">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#m03fc92743a" x="93.47475" y="313.044812" style="fill: #c5b0d5; stroke: #c5b0d5"/>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="316.264813" transform="rotate(-0 99.45475 316.264813)">Monocyte/Monocyte derived macrophage</text>
+    </g>
+    <g id="line2d_23">
+     <path style="fill: none"/>
+     <defs>
+      <path id="mb20279fa78" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #4fc601"/>
+     </defs>
+     <g>
+      <use xlink:href="#mb20279fa78" x="93.47475" y="326.278437" style="fill: #4fc601; stroke: #4fc601"/>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="329.498438" transform="rotate(-0 99.45475 329.498438)">Myofibroblasts</text>
+    </g>
+    <g id="line2d_24">
+     <path style="fill: none"/>
+     <defs>
+      <path id="m0c31e739c1" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #98df8a"/>
+     </defs>
+     <g>
+      <use xlink:href="#m0c31e739c1" x="93.47475" y="339.399938" style="fill: #98df8a; stroke: #98df8a"/>
+     </g>
+    </g>
+    <g id="text_23">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="342.619938" transform="rotate(-0 99.45475 342.619938)">NK</text>
+    </g>
+    <g id="line2d_25">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#m0c31e739c1" x="93.47475" y="352.52575" style="fill: #98df8a; stroke: #98df8a"/>
+     </g>
+    </g>
+    <g id="text_24">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="355.74575" transform="rotate(-0 99.45475 355.74575)">NK-like_Cells</text>
+    </g>
+    <g id="line2d_26">
+     <path style="fill: none"/>
+     <defs>
+      <path id="m2190e3f22b" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ff2f80"/>
+     </defs>
+     <g>
+      <use xlink:href="#m2190e3f22b" x="93.47475" y="365.539438" style="fill: #ff2f80; stroke: #ff2f80"/>
+     </g>
+    </g>
+    <g id="text_25">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="368.759438" transform="rotate(-0 99.45475 368.759438)">Neutrophils</text>
+    </g>
+    <g id="line2d_27">
+     <path style="fill: none"/>
+     <defs>
+      <path id="macacbd7e20" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #61615a"/>
+     </defs>
+     <g>
+      <use xlink:href="#macacbd7e20" x="93.47475" y="378.66525" style="fill: #61615a; stroke: #61615a"/>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="381.88525" transform="rotate(-0 99.45475 381.88525)">Non-inflammatory_Macrophage</text>
+    </g>
+    <g id="line2d_28">
+     <path style="fill: none"/>
+     <defs>
+      <path id="m5451fcd9cb" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #ba0900"/>
+     </defs>
+     <g>
+      <use xlink:href="#m5451fcd9cb" x="93.47475" y="391.898875" style="fill: #ba0900; stroke: #ba0900"/>
+     </g>
+    </g>
+    <g id="text_27">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="395.118875" transform="rotate(-0 99.45475 395.118875)">Periportal_LSECs</text>
+    </g>
+    <g id="line2d_29">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#m913e6d6ee6" x="93.47475" y="405.024688" style="fill: #aec7e8; stroke: #aec7e8"/>
+     </g>
+    </g>
+    <g id="text_28">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="408.244688" transform="rotate(-0 99.45475 408.244688)">Plasma_Cells</text>
+    </g>
+    <g id="line2d_30">
+     <path style="fill: none"/>
+     <defs>
+      <path id="m3c839353ae" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #00c2a0"/>
+     </defs>
+     <g>
+      <use xlink:href="#m3c839353ae" x="93.47475" y="418.1505" style="fill: #00c2a0; stroke: #00c2a0"/>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="421.3705" transform="rotate(-0 99.45475 421.3705)">Portal_endothelial_Cells</text>
+    </g>
+    <g id="line2d_31">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#m19486d88e1" x="93.47475" y="431.164188" style="fill: #e377c2; stroke: #e377c2"/>
+     </g>
+    </g>
+    <g id="text_30">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="434.384188" transform="rotate(-0 99.45475 434.384188)">Stellate cells</text>
+    </g>
+    <g id="line2d_32">
+     <path style="fill: none"/>
+     <defs>
+      <path id="me77799551c" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #9edae5"/>
+     </defs>
+     <g>
+      <use xlink:href="#me77799551c" x="93.47475" y="444.177875" style="fill: #9edae5; stroke: #9edae5"/>
+     </g>
+    </g>
+    <g id="text_31">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="447.397875" transform="rotate(-0 99.45475 447.397875)">T</text>
+    </g>
+    <g id="line2d_33">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#me77799551c" x="93.47475" y="457.303688" style="fill: #9edae5; stroke: #9edae5"/>
+     </g>
+    </g>
+    <g id="text_32">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="460.523688" transform="rotate(-0 99.45475 460.523688)">alpha-beta_T_Cells</text>
+    </g>
+    <g id="line2d_34">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#me77799551c" x="93.47475" y="470.4295" style="fill: #9edae5; stroke: #9edae5"/>
+     </g>
+    </g>
+    <g id="text_33">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="473.6495" transform="rotate(-0 99.45475 473.6495)">gamma-delta_T_Cells_1</text>
+    </g>
+    <g id="line2d_35">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#me77799551c" x="93.47475" y="483.663125" style="fill: #9edae5; stroke: #9edae5"/>
+     </g>
+    </g>
+    <g id="text_34">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="486.883125" transform="rotate(-0 99.45475 486.883125)">gamma-delta_T_Cells_2</text>
+    </g>
+    <g id="line2d_36">
+     <path style="fill: none"/>
+     <defs>
+      <path id="m239e429079" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #000035"/>
+     </defs>
+     <g>
+      <use xlink:href="#m239e429079" x="93.47475" y="496.89675" style="fill: #000035; stroke: #000035"/>
+     </g>
+    </g>
+    <g id="text_35">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="500.11675" transform="rotate(-0 99.45475 500.11675)">pDCs</text>
+    </g>
+    <g id="line2d_37">
+     <path style="fill: none"/>
+     <g>
+      <use xlink:href="#m03fc92743a" x="93.47475" y="510.022563" style="fill: #c5b0d5; stroke: #c5b0d5"/>
+     </g>
+    </g>
+    <g id="text_36">
+     <text style="font: 9.2px 'Arial'; text-anchor: start" x="99.45475" y="513.242563" transform="rotate(-0 99.45475 513.242563)">Non-Inflammatory_Macrophage</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
