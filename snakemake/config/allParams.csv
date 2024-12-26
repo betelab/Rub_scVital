@@ -1,0 +1,17 @@
+filename,batchSize,numEpoch,learningRate,inLayerDims,lastLayer,inDiscLayer,reconCoef,klCoef,discCoef,batchName,cellName,res
+simb2c5o3BIG,128,128,1e-3,1024-128,12,6,2,1e-1,10,Batch,TrueLabel,2e-1
+5050_JukT92,512,50,1e-3,1024-128,12,6,2,1e-1,1,Batch,cell,1e-1
+PBMCwCounts,512,50,1e-3,1024-128,12,6,2,1e-1,1,batch,anno,4e-1
+Liverhumanmouse,512,50,1e-3,1024-128,12,6,2,1e-1,1,species,CellType,4e-1
+pancreashumanmouse,512,50,1e-3,1024-128,12,6,2,1e-1,1,species,assignedCluster,4e-1
+bladderMouseHuman,512,50,1e-3,1024-128,12,6,2,1e-1,1,species,cellType,4e-1
+MusclehumanmouseNU,512,50,1e-3,1024-128,12,6,2,1e-1,1,species,cellAnnotation,4e-1
+lunghumanmouse,512,50,1e-3,1024-128,12,6,4,1e-1,2,species,CellType,4e-1
+PDACmouseHumanHuwangGMM,512,50,1e-3,1024-128,12,6,2,5e-2,1,patient,cs,4e-1
+PDACmouseHumanDCT2MM,512,50,1e-3,1024-128,12,6,2,5e-2,2,patient,cs,4e-1
+LUADmouseHumanBKHM,1024,50,1e-3,1024-128,12,6,10,5e-2,2,patient,cs,4e-1
+mouseHuman_PDX_tum_labeled_G1_outer,128,128,1e-3,1024-128,12,6,2,5e-1,1,batch,chemoLabel,4e-1
+mouse_mfh9_tum_labeled_G1_outer,128,128,1e-3,1024-128,12,6,2,5e-1,1,batch,chemoLabel,4e-1
+mouse_ups2236_tum_labeled_G1_outer,128,128,1e-3,1024-128,12,6,2,5e-1,1,batch,chemoLabel,4e-1
+lungLUADinjMouse,512,50,1e-3,1024-128,12,6,5,5e-2,2,dataset,cs,4e-1
+luadMDA_P2T7,512,50,1e-3,1024-128,12,6,5,5e-2,2,Tumor,cs,4e-1

@@ -1,0 +1,158 @@
+#snakefile
+
+from snakemake.utils import Paramspace
+import pandas as pd
+
+#report: "report/workflow.rst"
+inFileData = pd.read_csv("../config/allParams.csv", dtype=object)
+paramspace = Paramspace(inFileData,filename_params=list(inFileData.columns[1:]))#,param_sep=":"
+
+rule all:
+	input:
+		expand("../results/allParamsOUT/{file}/clusters/scVital.csv", file=paramspace.instance_patterns),
+		expand("../results/allParamsOUT/{file}/vaeOut_EvalBench.h5ad", file=paramspace.instance_patterns),
+		expand("../results/allParamsOUT/{file}/figures/lssAucScore.csv", file=paramspace.instance_patterns),
+		outARIfile = f"../results/allParamsOUT/scale.svg",
+		#outBench = expand("../results/allParamsOUT/{file}/figures/bench.csv", file=paramspace.instance_patterns),
+
+rule evalscVital:
+	input:
+		inAdata = "../resources/{filename}.h5ad",
+	output:
+		outModel   = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/scVitalModel.pkl",
+		scVitalLatent = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scVital.csv",
+		scVitalCluster = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/clusters/scVital.csv",
+		outAdata = temp(f"../results/allParamsOUT/{paramspace.wildcard_pattern}/vaeOut_eval.h5ad"),
+		outCombFig = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/figures/lossPlots.png"
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/scVital-env.yml"
+	script:
+		"scripts/runScVital.py"
+
+rule evalNormal:
+	input:
+		inAdata = "../resources/{filename}.h5ad",
+	output:
+		normalLatent = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/normal.csv",
+		normalCluster = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/clusters/normal.csv"
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/pcaBbknnHarm.yml"
+	script:
+		"scripts/runNormal.py"
+
+rule evalBBKNN:
+	input:
+		inAdata = "../resources/{filename}.h5ad",
+	output:
+		bbknnLatent = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/BBKNN.csv",
+		bbknnCluster = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/clusters/BBKNN.csv"
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/pcaBbknnHarm.yml"
+	script:
+		"scripts/runBBKNN.py"
+
+rule evalHarmony:
+	input:
+		inAdata = "../resources/{filename}.h5ad",
+	output:
+		harmonyLatent = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/Harmony.csv",
+		harmonyCluster = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/clusters/Harmony.csv"
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/pcaBbknnHarm.yml"
+	script:
+		"scripts/runHarmony.py"
+
+rule evalscVI:
+	input:
+		inAdata = "../resources/{filename}.h5ad",
+	output:
+		scViLatent = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scVI.csv",
+		scViClusters = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/clusters/scVI.csv",
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/scvi-env.yml"
+	script:
+		"scripts/runScVI.py"
+
+rule evalscDreamer:
+	input:
+		inAdata = "../resources/{filename}.h5ad",
+	output:
+		scDreamLatent = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scDREAMER.csv",
+		scDreamCluster = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/clusters/scDREAMER.csv",
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/scDream.yaml"
+	script:
+		"scripts/runScDREAMER.py"
+
+rule outLSS:
+	input:
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/normal.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/BBKNN.csv", 
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/Harmony.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scVI.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scVital.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scDREAMER.csv",
+		inAdata = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/vaeOut_eval.h5ad",
+	output:
+		outLSS = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/figures/lssAucScore.csv",
+		outAdata = temp(f"../results/allParamsOUT/{paramspace.wildcard_pattern}/vaeOut_evalLSS.h5ad"),
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/scVital-env.yml"
+	script:
+		"scripts/outLSS.py"
+
+rule outBenchmark:
+	input:
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/normal.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/BBKNN.csv", 
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/Harmony.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scVI.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scVital.csv",
+		f"../results/allParamsOUT/{paramspace.wildcard_pattern}/latents/scDREAMER.csv",
+		inAdata = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/vaeOut_evalLSS.h5ad",
+	output:
+		#outBench = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/figures/bench.csv",
+		outAdata = f"../results/allParamsOUT/{paramspace.wildcard_pattern}/vaeOut_EvalBench.h5ad",
+	params:
+		paramVals = paramspace.instance,
+	conda:
+		"envs/pcaBbknnHarm.yml"
+	script:
+		"scripts/outBenchmark.py"
+
+rule outCombine:
+	input:
+		expand("../results/allParamsOUT/{file}/clusters/normal.csv", file=paramspace.instance_patterns),
+		expand("../results/allParamsOUT/{file}/clusters/BBKNN.csv", file=paramspace.instance_patterns),
+		expand("../results/allParamsOUT/{file}/clusters/Harmony.csv", file=paramspace.instance_patterns),
+		expand("../results/allParamsOUT/{file}/clusters/scVI.csv", file=paramspace.instance_patterns),
+		expand("../results/allParamsOUT/{file}/clusters/scVital.csv", file=paramspace.instance_patterns),
+		expand("../results/allParamsOUT/{file}/clusters/scDREAMER.csv", file=paramspace.instance_patterns)
+	output:
+		outARIfile = f"../results/allParamsOUT/ARI_barByInteg.svg",
+		outFMfile = f"../results/allParamsOUT/FM_barByInteg.svg",
+		outScaleFile = f"../results/allParamsOUT/scale.svg",
+	params:
+		outDirect = f"../results/allParamsOUT",
+	conda:
+		"envs/pcaBbknnHarm.yml"
+	script:
+		"scripts/outCombine.py"
+
+
+
+
