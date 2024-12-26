@@ -1,5 +1,10 @@
 # Rub_scVital - Single-Cell RNA Sequencing Integration Pipeline
 
+This repository helps create the figures from the pre-print: [A deep-learning tool for species-agnostic integration of cancer cell states
+](https://www.biorxiv.org/content/10.1101/2024.12.20.629285v1)
+
+The scVital tool can be downloaded via pip with more details here: [pipy scVital](https://pypi.org/project/scVital/) and [scVital](https://github.com/j-rub/scVital)
+
 ## Overview
 
 This Snakemake pipeline creates figures for scVital manuscript. The pipeline performs integration using our novel method, scVital, and comparison with five other integration methods. The goal is to provide a comprehensive analysis of cross-species cancer data integration.
