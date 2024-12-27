@@ -65,6 +65,11 @@ This Snakemake pipeline creates figures for scVital manuscript. The pipeline per
 - `worflow/notebooks/`: Directory containing custom ipthon notebook for figure generation.
 - `results/`: Directory where output files will be saved.
 
+## Inital Analysis
+
+- `scanpyAnalysis`: Directory with python notebooks for all preliminary analysis of input data
+    - save scanpy `.h5ad` objects in `snakemake/resources/` to then run the snakemake pipeline
+
 ## Contributing
 
 We welcome contributions to improve this pipeline. Please fork the repository and submit a pull request with your changes.
